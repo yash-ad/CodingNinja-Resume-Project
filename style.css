@@ -1,39 +1,93 @@
 body{
 
     margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
 }
 
 /* Header */
 #body-header{
-    height: 80vh;
-    opacity: 0.9;
-    background-image: url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80);
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    padding: 1.2rem;
 }
 
 /* Nav */
-.Horizontal-Lists{
+.Horizontal-List{
     list-style:none;
     padding-left: 0px;
-    text-align: center;
+    margin: 0px;
 }
-.Horizontal-Lists li{
+.Horizontal-List li{
     
     display: inline-block;
-    margin:1px 9px 9px 1px;
+    margin:0px 8px 8px 0px;
+    font-weight:500;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
 
 }
 
-.Horizontal-Lists li a{
+.Horizontal-List li a{
 
-    color: antiquewhite;
+    color: white;
     text-decoration: none;
     transition: color 0.5s ,border-bottom 4s;
 }
-.Horizontal-Lists li a:hover{
+
+.Horizontal-List li a:hover{
 
     color: lightgrey;
     border-bottom: 1px solid white;
+}
+
+.text-center{
+
+    text-align: center;
+}
+
+
+
+
+
+/*Name and Social Icons */
+#Social-Links-container{
+
+
+    margin-top: 23vh;
+}
+
+#MyName{
+
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+    text-align: center;
+}
+
+.Social-Icons li {
+    
+    border-radius: 50%;
+    margin-top: 6px;
+    
+}
+
+.Social-Icons li:hover {
+
+    box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3);
+}
+
+.Social-Icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3);
+}
+
+.Social-Icons li a img {
+    width: 2.5rem;
+    padding: 10px;
 }
