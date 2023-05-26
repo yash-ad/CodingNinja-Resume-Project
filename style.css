@@ -18,17 +18,24 @@ body{
 
 /* Nav */
 .Horizontal-List{
-    list-style:none;
-    padding-left: 0px;
-    margin: 0px;
+    list-style: none;
+    padding-left: 9px;
+    margin: -48px;
+}
+
+#Menubar{
+    
+    margin-top: -10px;
+
 }
 .Horizontal-List li{
     
     display: inline-block;
-    margin:0px 8px 8px 0px;
-    font-weight:500;
+    margin: 0px 15px 15px 0px;
+    font-weight: 500;
     font-size: 1rem;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.2REM;
+    word-spacing: 5%;
 
 }
 
@@ -51,14 +58,12 @@ body{
 }
 
 
-
-
-
 /*Name and Social Icons */
+
 #Social-Links-container{
 
 
-    margin-top: 23vh;
+    margin-top: 16vh;
 }
 
 #MyName{
@@ -67,17 +72,9 @@ body{
     letter-spacing: 0.2rem;
     color: white;
     font-weight: 500;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.10rem;
     text-align: center;
 }
-
-.Social-Icons li {
-    
-    border-radius: 50%;
-    margin-top: 6px;
-    
-}
-
 .Social-Icons li:hover {
 
     box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3);
@@ -87,7 +84,58 @@ body{
     box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3);
 }
 
-.Social-Icons li a img {
-    width: 2.5rem;
+.Social-Icons li a i {
+    width: 1.5rem;
     padding: 10px;
+    zoom: 120%;
+
+} 
+
+
+/*Main*/
+
+/*About Section*/
+
+#About{
+
+    height: auto;
+    width: 100%;
+    position:relative;
 }
+
+#MyImage{
+ 
+    height: 15rem;
+    width: 15rem;
+    margin-top: -20vh;
+    border-radius:50%;
+    margin-left:90vh ;
+    border-color: lightgrey;
+    box-shadow: 0px 0px 5px 5px white;
+   
+    
+}
+
+#MyImage img{ 
+    
+    /*Here the parent is Div of image tag we have set the unit relative to the parent is %*/
+    height: 100%;
+    width: 100%;
+
+    
+}
+/*About Section*/
+#About-Paragraph{
+    font-size:80%;
+    color: grey;
+    font-weight: 400;
+    padding-top: 50px;
+    margin: 10px 70px 35px 70px;
+}
+
+
+.Highlighted{
+
+    color: #2857a4;
+}
+
