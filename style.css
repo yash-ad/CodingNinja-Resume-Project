@@ -75,6 +75,7 @@ body{
     margin-bottom: 0.10rem;
     text-align: center;
 }
+
 .Social-Icons li:hover {
 
     box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3);
@@ -82,6 +83,8 @@ body{
 
 .Social-Icons li a i:hover {
     box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3);
+    
+   
 }
 
 .Social-Icons li a i {
@@ -90,6 +93,214 @@ body{
     zoom: 120%;
 
 } 
+
+
+/* Section */
+
+section{
+
+    width: 100%;
+  
+  
+}
+
+
+ section:nth-child(2n){
+
+    background-color: #9e9b9b29;
+ }
+
+section:nth-child(2n+1){
+    background-color: white;
+
+}
+
+.Section-heading{
+
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+    margin-bottom: 75px;
+  
+    
+}
+
+.Section-heading span{
+
+    font-size: 40px;
+    color: #2857a4;
+display: inline-block;
+padding-top:10px ;
+margin-right: 0.5rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+/* Skills Section */
+#Skills{
+   padding-top: 10px;
+   padding-right: 30px;
+    padding-bottom: 100px;
+    margin-bottom: -91px;
+    margin-top: 90px;
+
+}
+
+.Skills-Display{
+
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left:160px;
+}
+
+.skill-progress{
+width: 7rem;
+height: 1.5rem;
+background-color: lightgrey;
+border-radius:15rem;
+box-shadow: 10px;
+border: 1px solid grey;
+
+}
+
+/*New css rule directly > apply to a child*/
+.skill-progress div{
+border-radius:25px 0px 0px 25px;
+
+
+}
+/*Skills color code*/
+.mb-blue{
+background-color: #2857a4;
+}
+.mb-orange{
+    background-color: orangered;
+}
+.mb-green{
+    background-color: green;
+}
+
+
+.skill-name {
+font-weight: 300;
+font-size:1rem;
+text-align: center;
+color: white;
+
+}
+/*Percentage classes*/
+.eighty-five-percent{
+    width: 85%;
+    height: inherit;
+
+}
+
+.eighty-percent{
+    width: 80%;
+    height: inherit;
+
+}
+.seventy-percent{
+    width: 70%;
+    height: inherit;
+}
+
+
+/* Portfolio Section */
+
+#PORTFOLIO{
+
+
+    padding-right: 30px;
+     padding-bottom: 20px;
+ 
+     margin-top: -100px; 
+}
+.portfolio-heading{
+    
+    width: auto;
+    padding: 90px 10px 0px;
+    font-weight: 400;
+    margin-bottom: -5px;
+    margin-top: 100px;
+
+}
+.portfolio-heading span{
+
+    font-size: 40px;
+    color: #2857a4;
+display: inline-block;
+margin-right: 0.5rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+
+.Portfolio-Display{
+  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    margin:70px 40px 0px;
+
+}
+.Portfolio-Images{
+    display: flex;
+    flex-direction: column ;
+    
+
+}
+.Portfolio-pic{
+ position: relative;
+    height: 15rem;
+    width: 20rem;
+    padding-bottom: 1rem;
+}
+
+  .Text-content {
+
+    width: 25%;
+    height: 25%;
+    position:absolute;
+background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.6s;
+}
+.Text-content:hover{
+
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.Text-content p{
+font-size: 20px;
+color: #fff;
+
+
+}
+
+
+
+
+
+
+.Portfolio-pic:hover{
+
+background-color: lightgrey;
+box-shadow: 0px 0px 20px 15px rgba(67, 61, 244, 0.3);
+}
 
 
 /*Main*/
