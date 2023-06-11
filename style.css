@@ -1,6 +1,7 @@
 body{
 
-    margin: 0px;
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
     font-size: 30px;
 }
@@ -110,10 +111,7 @@ section{
     background-color: #9e9b9b29;
  }
 
-section:nth-child(2n+1){
-    background-color: white;
 
-}
 
 .Section-heading{
 
@@ -278,22 +276,6 @@ background: rgba(0, 0, 0, 0.6);
     opacity: 0;
     transition: 0.6s;
 }
-.Text-content:hover{
-
-    opacity: 1;
-    transform: translateY(0px);
-}
-
-.Text-content p{
-font-size: 20px;
-color: #fff;
-
-
-}
-
-
-
-
 
 
 .Portfolio-pic:hover{
@@ -301,6 +283,141 @@ color: #fff;
 background-color: lightgrey;
 box-shadow: 0px 0px 20px 15px rgba(67, 61, 244, 0.3);
 }
+
+
+/* Contact Section */
+.Contact-Container{
+width: 100%;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 2%;
+background-color:chocolate;
+
+}
+
+.Contact-Container .row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+
+
+}
+span .png{
+
+    padding-right: 0;
+}
+
+.row div.col{
+
+    display: flex;
+    flex-direction: column;
+}
+.row div.left{
+    flex-basis:35%;
+    min-width: 320px;
+    margin-right: 70px;
+    font-size: 50px;
+
+
+}
+
+.row div.right{
+flex-basis: 60%;
+font-size: 20px;
+
+}
+
+.row div.right .Getintouch p{
+
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    padding-bottom: 22px;
+}
+
+.row div.right .contactInfo{
+
+    margin-bottom: 15px;
+}
+
+.addressContainers span {
+    padding-right: 20px;
+
+ 
+ }
+
+ .addressContainers .address{
+
+    margin-bottom: 20px;
+ }
+
+ .addressContainers .contact-Number{
+    margin-bottom: 20px; 
+ }
+
+
+ .email span{
+    padding-right: 15px;  
+ }
+
+
+
+
+.Contact-heading{
+    
+    width: auto;
+    padding: 0px 10px 10px;
+    font-weight: 400;
+    margin-bottom: 75px;
+    margin-top: 0;
+   
+
+}
+
+.Contact-heading span{
+    font-size: 40px;
+    color: #2857a4;
+display: inline-block;
+padding-top:10px ;
+margin-right: 0.5rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+
+
+.Input-fileds{
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Main*/
