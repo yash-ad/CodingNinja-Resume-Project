@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 /* Header */
@@ -146,7 +146,7 @@ align-items: center;
     padding-bottom: 100px;
 
     margin-top: 90px;
-    margin-bottom: 215px
+    margin-bottom: 100px
 
 }
 
@@ -225,7 +225,7 @@ padding-top: 5%;
 .portfolio-heading{
     
     width: auto;
-    padding: 90px 10px 0px;
+    padding: 50px 10px 0px;
     font-weight: 400;
     margin-bottom: -5px;
     margin-top: 100px;
@@ -339,6 +339,7 @@ font-size: 20px;
     line-height: 1.2;
     color: white;
     margin-bottom: 5px;
+  
 }
 
 .row div.right .contactInfo{
@@ -374,7 +375,7 @@ font-size: 20px;
     width: auto;
     padding: 0px 10px 10px;
     font-weight: 400;
-    margin-bottom: 75px;
+    margin-bottom: 100px;
     margin-top: 0;
     margin-left: -90px;
    
@@ -539,12 +540,21 @@ margin-top: 0;
 }
 
 
+
+
+
+
+
+
+
+
+
 /*Education-Section*/
 
 #Education{
     
      padding-right: 30px;
-     padding-bottom: 20px;
+     padding-bottom: 50px;
  
 
 }
@@ -576,7 +586,7 @@ align-items: center;
 .Timeline{
     position: relative;
     width: 70%;
-    border: 2px solid black;
+   
     left: 15%;
     margin-bottom: 1%;
 }
@@ -586,8 +596,17 @@ align-items: center;
     position: relative;
     width: 40%;
     margin: 5px;
-    min-height: 150px;
-    border: 2px solid black;
+    min-height: 160px;
+    
+}
+
+.contentbox {
+    position: relative;
+    font-size: 1.3rem;
+    text-align: center;
+
+  
+
 }
 
 .Timeline-Box:nth-child(2n){
@@ -613,13 +632,42 @@ color: #2857a4;
 
 transform: rotate(90deg);
 z-index: 2;
+
 }
 
+h5{
+
+    color: orangered;
+    font-size: larger;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+h6{
+
+    color:  #2857a4;
+    font-size: larger;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.contentbox p {
+
+    color: grey;
+    font-size:large;
+    font-weight: 100;
+    font-size: 0.9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
 .Timeline-Box:nth-child(1n)::after{
      content: '';
      position: absolute;
      top: 30%;
-     right: -25.5%;
+     right: -25.9%;
     background-color: gray;
     border-radius: 60%;
     width: 0.8rem;
@@ -632,9 +680,10 @@ z-index: 2;
     content: '';
     position: absolute;
     top: 30%;
-    left: -15.5%;
+    left: -15.1%;
    background-color:gray;
-   border-radius: 60%;
+   border-radius:  60%;
+  
    width: 0.8rem;
    height: 0.8rem;
    z-index: 1;
