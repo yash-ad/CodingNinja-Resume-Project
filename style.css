@@ -80,11 +80,12 @@ body{
 .Social-Icons li:hover {
 
     box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3);
+    
 }
 
 .Social-Icons li a i:hover {
     box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3);
-    
+   
    
 }
 
@@ -92,6 +93,8 @@ body{
     width: 1.5rem;
     padding: 10px;
     zoom: 120%;
+    
+  
 
 } 
 
@@ -141,8 +144,9 @@ align-items: center;
    padding-top: 10px;
    padding-right: 30px;
     padding-bottom: 100px;
-    margin-bottom: -91px;
+
     margin-top: 90px;
+    margin-bottom: 215px
 
 }
 
@@ -152,12 +156,12 @@ align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left:160px;
+    margin-left:180px;
 }
 
 .skill-progress{
-width: 7rem;
-height: 1.5rem;
+width: 8rem;
+height: 1.9rem;
 background-color: lightgrey;
 border-radius:15rem;
 box-shadow: 10px;
@@ -188,7 +192,7 @@ font-weight: 300;
 font-size:1rem;
 text-align: center;
 color: white;
-
+padding-top: 5%;
 }
 /*Percentage classes*/
 .eighty-five-percent{
@@ -286,6 +290,11 @@ box-shadow: 0px 0px 20px 15px rgba(67, 61, 244, 0.3);
 
 
 /* Contact Section */
+/*Code for the Right section*/
+#Contact{
+
+    color: #fff;
+}
 .Contact-Container{
 width: 100%;
 min-height: 100vh;
@@ -293,8 +302,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 2%;
-background-color:chocolate;
+padding: 5%;
+background:linear-gradient(-190deg,rgba(54, 5, 248, 0.961),rgb(86, 84, 230));
 
 }
 
@@ -316,14 +325,6 @@ span .png{
     display: flex;
     flex-direction: column;
 }
-.row div.left{
-    flex-basis:35%;
-    min-width: 320px;
-    margin-right: 70px;
-    font-size: 50px;
-
-
-}
 
 .row div.right{
 flex-basis: 60%;
@@ -336,7 +337,8 @@ font-size: 20px;
     font-size: 15px;
     letter-spacing: 1px;
     line-height: 1.2;
-    padding-bottom: 22px;
+    color: white;
+    margin-bottom: 5px;
 }
 
 .row div.right .contactInfo{
@@ -374,15 +376,16 @@ font-size: 20px;
     font-weight: 400;
     margin-bottom: 75px;
     margin-top: 0;
+    margin-left: -90px;
    
 
 }
 
 .Contact-heading span{
     font-size: 40px;
-    color: #2857a4;
+    color: #fff;
 display: inline-block;
-padding-top:10px ;
+
 margin-right: 0.5rem;
 display: flex;
 flex-direction: column;
@@ -390,15 +393,78 @@ align-items: center;
 
 }
 
+/*Code for the left section*/
+.colleft .messageform .Input-fields{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+margin-top: 0;
+}
+.messageform{
+    flex-basis: 50%;
+}
+.colleft{
+    flex-basis:40%;
+    min-width: 320px;
+    margin-right: 208px;
+    font-size: 50px;
 
 
-.Input-fileds{
+}
+.colleft .Input-fields{
 
-    display: flex;
-    flex-direction: column;
-    margin-right: 4%;
+    margin: 10px 0px;
+ 
+}
 
+.messageform input , .messageform textarea{
 
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    border: none;
+    padding: 30px 0px;
+    background-color:transparent;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    transition: 0.5s;
+   
+    
+}
+
+ .messageform .message .btn{
+     background-color:transparent;
+     color: #fff;
+     font-size: medium;
+     font-weight: 600;
+     word-spacing: 6%;
+     letter-spacing: 0.1rem;
+     
+     
+     
+    }
+    
+    .messageform .btn{
+        
+            border: 2px solid #fff;
+        padding: 4px 8px;
+    width: 45%;
+    height: 35%;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    
+   
+  transition: 0.4s;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.messageform .btn:hover{
+
+    background-color: black;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    border: 2px solid dodgerblue;
 }
 
 
@@ -407,18 +473,23 @@ align-items: center;
 
 
 
+/*socialiconsfooter*/
+.socialiconsfooter .Horizontal-List{
+    list-style: none;
+   padding-right: 75px;
+    margin: 0px;
+}
 
+.socialiconsfooter .Horizontal-List li{
+    
+    display: inline-block;
+    margin: 0px 25px 25px 0px;
+    font-weight:600;
+    font-size: 1rem;
+    letter-spacing: 0.4REM;
+    word-spacing: 6%;
 
-
-
-
-
-
-
-
-
-
-
+}
 
 /*Main*/
 
@@ -467,3 +538,104 @@ align-items: center;
     color: #2857a4;
 }
 
+
+/*Education-Section*/
+
+#Education{
+    
+     padding-right: 30px;
+     padding-bottom: 20px;
+ 
+
+}
+
+.Education-heading{
+
+    width: auto;
+    padding: 70px 10px 35px;
+    font-weight: 400;
+    margin-bottom: -5px;
+    margin-top: 100px;
+
+
+}
+.Education-heading span{
+    font-size: 40px;
+    color: #2857a4;
+display: inline-block;
+margin-right: 0.5rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+
+
+.Timeline{
+    position: relative;
+    width: 70%;
+    border: 2px solid black;
+    left: 15%;
+    margin-bottom: 1%;
+}
+
+.Timeline-Box{
+
+    position: relative;
+    width: 40%;
+    margin: 5px;
+    min-height: 150px;
+    border: 2px solid black;
+}
+
+.Timeline-Box:nth-child(2n){
+
+    left: 55%;
+}
+
+.Timeline-divider{
+
+    position: absolute; /*Position:absolute because it uses the document body, and moves along with page scrolling.*/
+    height: 75%;
+    width: 0;
+    border: 3px dashed #0096fa6b;
+    top: 10%;
+    left: 50%;
+}
+
+.Timeline-traveller{
+
+position: sticky;
+ top: 30%;
+color: #2857a4;
+
+transform: rotate(90deg);
+z-index: 2;
+}
+
+.Timeline-Box:nth-child(1n)::after{
+     content: '';
+     position: absolute;
+     top: 30%;
+     right: -25.5%;
+    background-color: gray;
+    border-radius: 60%;
+    width: 0.8rem;
+    height: 0.8rem;
+    z-index: 1;
+}
+
+
+.Timeline-Box:nth-child(2n)::after{
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: -15.5%;
+   background-color:gray;
+   border-radius: 60%;
+   width: 0.8rem;
+   height: 0.8rem;
+   z-index: 1;
+}
