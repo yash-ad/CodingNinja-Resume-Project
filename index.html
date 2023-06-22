@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div class="Container">
     <header id="body-header">
         <nav id="Navmenu">
             <ul id="Menubar" class="Horizontal-List text-center">
@@ -22,40 +23,41 @@
 
             </ul>
         </nav>
+        
         <div id="Social-Links-container">
-            <div id="MyName"> 
-                <h1>Yash Dandnaik</h1>
+            <div class="MyName"> 
+                <h1 id="myname">Yash Dandnaik</h1>
+                <ul id="SocialMediaIcons" class="Horizontal-List text-center Social-Icons">
+                    <li><a href="https://www.linkedin.com/in/yashraj-dandnaik-4670991a6/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/yash-ad"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-medium"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-quora"></i></a></li>
+                </ul>
             
             </div>
            
-            <ul id="SocialMediaIcons" class="Horizontal-List text-center Social-Icons">
-                <li><a href="https://www.linkedin.com/in/yashraj-dandnaik-4670991a6/"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/yash-ad"><i class="fa-brands fa-github"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-medium"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-quora"></i></a></li>
-
-
-            </ul>
 
         </div>
 
-
+        
+        
     </header>
-
+    
     <main>
         <section id="About">
-            <div>
+            <div class="ImageofMine">
                 
                 <img id="MyImage" src="https://media.licdn.com/dms/image/D4D03AQEz09rkXM4Dkg/profile-displayphoto-shrink_800_800/0/1665111766724?e=1690416000&v=beta&t=lLytIkZ89lH-PfZ9qSB3bjis2OpPLyUBp_xwgxh6jcg">
             
             </div>
+
             <p id="About-Paragraph"> Lorem Ipsum is simply dummy text of the printing and <b class="Highlighted">typesetting</b> industry. Lorem Ipsum has been the industry's standard <b class="Highlighted">dummy text ever</b> since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s <b class="Highlighted">with the release of Letraset</b> sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-
+    
         </section>
-
+        
         <section id="Skills">
-            <h1 class="Section-heading">
+            <h1 class="Skills-heading">
                 <span>
                     <i class="fas fa-chalkboard-user"></i>
                 </span>
@@ -89,7 +91,7 @@
                         
                     </div>
 
-                </div>
+              
 
             </section>
             
@@ -103,8 +105,8 @@
                 <div class="Timeline-Box">
                  <div class="contentbox">
                    
-                        <h5>Degree</h5>
-                        <h6>Institue Name</h6>
+                        <h5 class="Degreename">Degree</h5>
+                        <h6 class="Institutename">Institue Name</h6>
                         <p>Month YYYY-Month YYYY</p>
                         <p>ipsum dolor sit amet consectetur adipisicing elit. Libero quisquam deserunt repellat veniam voluptatem non ea nemo suscipit minus repudiandae.</p>
                    
@@ -299,6 +301,8 @@
 
 
     </main>  
+
+</div>
 </body>
 </html>
 

@@ -3,7 +3,15 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    font-size: 40px;
+    font-size: 30px;
+   
+}
+.Container{
+
+    max-width: 1400px;
+    margin-inline: auto;
+  
+  
 }
 
 /* Header */
@@ -15,6 +23,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     padding: 1.2rem;
+    overflow: hidden;
 }
 
 /* Nav */
@@ -61,14 +70,9 @@ body{
 
 /*Name and Social Icons */
 
-#Social-Links-container{
 
-
-    margin-top: 16vh;
-}
-
-#MyName{
-
+.MyName{
+    
     font-size: 2.5rem;
     letter-spacing: 0.2rem;
     color: white;
@@ -76,7 +80,11 @@ body{
     margin-bottom: 0.10rem;
     text-align: center;
 }
+#Social-Links-container{
 
+
+    margin-top: 16vh;
+}
 .Social-Icons li:hover {
 
     box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3);
@@ -100,10 +108,11 @@ body{
 
 /*Main*/
 
+
 /*About Section*/
 
 #About{
-
+   
     height: auto;
     width: 100%;
     position:relative;
@@ -111,9 +120,10 @@ body{
 
 #MyImage{
  
-    height: 15rem;
-    width: 15rem;
-    margin-top: -20vh;
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -15vh;
     border-radius:50%;
     margin-left:90vh ;
     border-color: lightgrey;
@@ -132,6 +142,8 @@ body{
 }
 /*About Section*/
 #About-Paragraph{
+
+
     font-size:80%;
     color: grey;
     font-weight: 400;
@@ -164,7 +176,10 @@ section{
 
 
 
-.Section-heading{
+
+/* Skills Section */
+
+.Skills-heading{
 
     width: auto;
     padding: 20px 10px 10px;
@@ -174,11 +189,11 @@ section{
     
 }
 
-.Section-heading span{
+.Skills-heading span{
 
     font-size: 40px;
     color: #2857a4;
-display: inline-block;
+
 padding-top:10px ;
 margin-right: 0.5rem;
 display: flex;
@@ -186,8 +201,6 @@ flex-direction: column;
 align-items: center;
 
 }
-
-/* Skills Section */
 #Skills{
    
    padding-top: 10px;
@@ -205,7 +218,7 @@ align-items: center;
     width: 70%;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left:180px;
+    margin-left:190px;
 }
 
 .skill-progress{
@@ -213,7 +226,7 @@ width: 8rem;
 height: 1.9rem;
 background-color: lightgrey;
 border-radius:15rem;
-box-shadow: 10px;
+box-shadow: 20px;
 border: 1px solid grey;
 
 }
@@ -284,7 +297,8 @@ padding-top: 5%;
 
     font-size: 40px;
     color: #2857a4;
-display: inline-block;
+
+
 margin-right: 0.5rem;
 display: flex;
 flex-direction: column;
@@ -376,12 +390,15 @@ span .png{
 }
 
 .row div.right{
+    display:flex;
 flex-basis: 60%;
 font-size: 20px;
+margin-left: 10%;
+
 
 }
 
-.row div.right .Getintouch p{
+.Getintouch p {
 
     font-size: 15px;
     letter-spacing: 1px;
@@ -412,6 +429,11 @@ font-size: 20px;
  }
 
 
+ .addressContainers .email{
+    margin-bottom: 20px; 
+
+ }
+
 
 
 
@@ -425,6 +447,7 @@ font-size: 20px;
     margin-bottom: 100px;
     margin-top: 0;
     margin-left: -90px;
+    
    
 
 }
@@ -442,7 +465,7 @@ align-items: center;
 }
 
 /*Code for the left section*/
-.colleft .messageform .Input-fields{
+.colleft .messageform .Input-fields .message{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -487,20 +510,19 @@ margin-top: 0;
      font-weight: 600;
      word-spacing: 6%;
      letter-spacing: 0.1rem;
-     
-     
-     
     }
     
-    .messageform .btn{
+    .message .btn{
         
-            border: 2px solid #fff;
-        padding: 4px 8px;
-    width: 45%;
-    height: 35%;
+    border: 2px solid #fff;
+    padding: 5px 20px;
+    width: 40%;
+    height: 40%;
     border-radius: 3px;
     outline: none;
     cursor: pointer;
+    margin-top: 10px;
+    
     
    
   transition: 0.4s;
@@ -508,18 +530,12 @@ margin-top: 0;
 
 }
 
-.messageform .btn:hover{
+.message .btn:hover{
 
     background-color: black;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
     border: 2px solid dodgerblue;
 }
-
-
-
-
-
-
 
 /*socialiconsfooter*/
 .socialiconsfooter .Horizontal-List{
@@ -539,16 +555,6 @@ margin-top: 0;
 
 }
 
-
-
-
-
-
-
-
-
-
-
 /*Education-Section*/
 
 #Education{
@@ -562,17 +568,17 @@ margin-top: 0;
 .Education-heading{
 
     width: auto;
-    padding: 70px 10px 35px;
+    padding: 0px 10px 35px;
     font-weight: 400;
     margin-bottom: -5px;
-    margin-top: 100px;
+  
 
 
 }
 .Education-heading span{
     font-size: 40px;
     color: #2857a4;
-display: inline-block;
+
 margin-right: 0.5rem;
 display: flex;
 flex-direction: column;
@@ -625,8 +631,7 @@ align-items: center;
 }
 
 .Timeline-traveller{
-
-position: sticky;
+position: sticky ;
  top: 30%;
 color: #2857a4;
 
@@ -663,6 +668,10 @@ h6{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
+
+
+/* Dots on a divider */
+
 .Timeline-Box:nth-child(1n)::after{
      content: '';
      position: absolute;
@@ -690,15 +699,91 @@ h6{
 }
 
 /*Media Queries*/
+  /*Desktop First Responsive */
+ /*2 breakpoints - '572px' and '768px'.*/
+ 
 
-@media screen and (max-width:600px){
-  .Timeline-divider{
+@media screen and (max-width:768px){
+.MyName{
 
-    left: 1%;
+    margin-top: 15%;
+}
+
+#MyImage{
+    margin-top: -13%;
+    margin-left: 55vh;
+    margin-bottom: 15%;
+
+}
+#About-Paragraph {
+    font-size: 70%;
+    padding-top: 65px;
+    font-weight: 300;
+    margin: -150px 70px 35px 70px;
+}
+
+#Skills {
+    margin-top: 80px;
+
+}
+
+.Skills-heading {
+    width: auto;
+    padding: 0px -12px -12px;
+    margin-top: 0px;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.Skills-Display {
+  
+    margin-left: 105px;
+}
+
+.Education-heading {
+    width: auto;
+    padding: 60px 10px 40px;
+    margin-top: -97px;
+
+
+}
+.Timeline-divider{
+     top: 5%;
+    left: 10%;
   }  
 
   .Timeline-Box{
 
-    left: 17% !important ;
+    left: 29% !important ;
   }
+
+  .Timeline-Box::after{
+  top: -5%;
+
+    left: -51% !important;
+  }
+  .contentbox{
+
+    margin: -5%;
+  }
+  
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
