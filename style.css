@@ -366,7 +366,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 5%;
-background:linear-gradient(-190deg,rgba(54, 5, 248, 0.961),rgb(86, 84, 230));
+background: linear-gradient(263deg,rgb(48 37 81 / 96%),rgb(76 75 177));
+
 
 }
 
@@ -503,7 +504,7 @@ margin-top: 0;
     
 }
 
- .messageform .message .btn{
+.messageform .messagebox .btn{
      background-color:transparent;
      color: #fff;
      font-size: medium;
@@ -512,7 +513,7 @@ margin-top: 0;
      letter-spacing: 0.1rem;
     }
     
-    .message .btn{
+    .messagebox .btn{
         
     border: 2px solid #fff;
     padding: 5px 20px;
@@ -530,7 +531,7 @@ margin-top: 0;
 
 }
 
-.message .btn:hover{
+.messagebox .btn:hover{
 
     background-color: black;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
@@ -610,6 +611,7 @@ align-items: center;
     position: relative;
     font-size: 1.3rem;
     text-align: center;
+    padding-top: 60px;
 
   
 
@@ -623,6 +625,7 @@ align-items: center;
 .Timeline-divider{
 
     position: absolute; /*Position:absolute because it uses the document body, and moves along with page scrolling.*/
+   
     height: 75%;
     width: 0;
     border: 3px dashed #0096fa6b;
@@ -632,11 +635,12 @@ align-items: center;
 
 .Timeline-traveller{
 position: sticky ;
- top: 30%;
+ top: 50%;
 color: #2857a4;
+left: -20%;
 
 transform: rotate(90deg);
-z-index: 2;
+z-index: 3;
 
 }
 
@@ -648,6 +652,8 @@ h5{
     font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 h6{
 
@@ -657,6 +663,8 @@ h6{
     font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .contentbox p {
@@ -664,7 +672,7 @@ h6{
     color: grey;
     font-size:large;
     font-weight: 100;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
@@ -676,7 +684,7 @@ h6{
      content: '';
      position: absolute;
      top: 30%;
-     right: -25.9%;
+     right: -26%;
     background-color: gray;
     border-radius: 60%;
     width: 0.8rem;
@@ -697,93 +705,3 @@ h6{
    height: 0.8rem;
    z-index: 1;
 }
-
-/*Media Queries*/
-  /*Desktop First Responsive */
- /*2 breakpoints - '572px' and '768px'.*/
- 
-
-@media screen and (max-width:768px){
-.MyName{
-
-    margin-top: 15%;
-}
-
-#MyImage{
-    margin-top: -13%;
-    margin-left: 55vh;
-    margin-bottom: 15%;
-
-}
-#About-Paragraph {
-    font-size: 70%;
-    padding-top: 65px;
-    font-weight: 300;
-    margin: -150px 70px 35px 70px;
-}
-
-#Skills {
-    margin-top: 80px;
-
-}
-
-.Skills-heading {
-    width: auto;
-    padding: 0px -12px -12px;
-    margin-top: 0px;
-    justify-content: center;
-    padding-top: 25px;
-}
-
-.Skills-Display {
-  
-    margin-left: 105px;
-}
-
-.Education-heading {
-    width: auto;
-    padding: 60px 10px 40px;
-    margin-top: -97px;
-
-
-}
-.Timeline-divider{
-     top: 5%;
-    left: 10%;
-  }  
-
-  .Timeline-Box{
-
-    left: 29% !important ;
-  }
-
-  .Timeline-Box::after{
-  top: -5%;
-
-    left: -51% !important;
-  }
-  .contentbox{
-
-    margin: -5%;
-  }
-  
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
- 

@@ -1,0 +1,191 @@
+
+/*Media Queries*/
+  /*Desktop First Responsive */
+ /*2 breakpoints - '572px' and '768px'.*/
+ 
+
+ @media screen and (max-width:768px){
+    body .Container{
+
+        overflow: hidden;
+    }
+    .Horizontal-List {
+        list-style: none;
+ 
+        margin: -60px;
+    }
+
+  
+.MyName{
+
+    margin-top: 15%;
+}
+
+#MyImage{
+    margin-top: -13%;
+    margin-left: 55vh;
+    margin-bottom: 15%;
+
+}
+#About-Paragraph {
+    font-size: 70%;
+    padding-top: 65px;
+    font-weight: 300;
+    margin: -150px 70px 35px 70px;
+}
+
+#Skills {
+    margin-top: 80px;
+
+}
+
+.Skills-heading {
+    width: auto;
+    padding: 0px -12px -12px;
+    margin-top: 0px;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.Skills-Display {
+  
+    margin-left: 115px;
+   
+}
+
+.Education-heading {
+    width: auto;
+    padding: 60px 10px 40px;
+    margin-top: -97px;
+
+
+}
+.Timeline-divider{
+ 
+    left: 15%;
+  }  
+
+  .Timeline-Box{
+
+    left: 29% !important ;
+  }
+
+  .Timeline-Box::after{
+  top: -5%;
+
+    left: -38% !important;
+  }
+  .contentbox{
+
+    margin: -5%;
+    padding-top: 87px;
+  }
+  
+  .Timeline{
+
+    left: 10% !important;
+    width: 80%;
+   
+  }
+  .Horizontal-List li{
+    
+  
+    margin: 0px 2px 2px 0px;
+  
+    font-size: 0.8rem;
+
+
+}
+.MyName{
+    
+    font-size: 2.0rem;
+    
+    color: white;
+    font-weight: 300;
+ margin-top: 22%;
+    text-align: center;
+}
+#PORTFOLIO{
+
+    margin-top: 0;
+}
+
+.Portfolio-Display{
+  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   align-items: center;  /*Because of cross axis */
+  
+    margin:65px;
+    margin-right:10% ;
+
+
+}
+
+.row{
+
+    margin-right: 25%;
+}
+.Contact-Container .row {
+   
+    width: 50%;
+}
+ .row.colleft{
+    flex-basis:40%;
+    
+
+    font-size: 50px;
+
+
+}
+.colleft .Input-fields{
+
+    margin: 15px 0px;
+ 
+}
+.messageform input , .messageform textarea{
+
+    width: 150%;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    padding: 20px 0px;
+    background-color:transparent;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    transition: 0.5s;
+   
+    
+}
+.message .btn {
+  
+    padding: 5px 20px;
+    width: 50%;
+   
+   
+    margin-top: 30px;
+    margin-left: 30%;
+  
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
