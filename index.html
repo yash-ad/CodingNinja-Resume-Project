@@ -4,30 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume Project</title>
+    <title>My Resume</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">  
+
 </head>
 <body>
-    <div class="Container">
-    <header id="body-header">
-        <nav id="Navmenu">
-            <ul id="Menubar" class="Horizontal-List text-center">
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#Contact">Contact</a></li>
-
-            </ul>
-        </nav>
+    <div class="Containerofwholepage">
+        <header id="body-header">
+            <nav  id="Navmenu">  <!--Rightmenu-->
+                <div class="nav-links">  <!--Dropdownmenu-->
+                <ul id="Menubar" class="Horizontal-List text-center">
+                    <li class="Allinks"><a href="#">Home</a></li>
+                    <li class="Allinks"><a href="#About">About</a></li>
+                    <li class="Allinks"><a href="#Skills">Skills</a></li>
+                    <li class="Allinks"><a href="#Education">Education</a></li>
+                    <li class="Allinks"><a href="#PORTFOLIO">Portfolio</a></li>
+                    <li class="Allinks"><a href="#Contact">Contact</a></li>
+                    
+                </ul>
+            </div>
+                
+                 <a href="#" class="nav-hamburger"> <!--menubutton-->
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                </a>
+             
+            </nav>
         
         <div id="Social-Links-container">
             <div class="MyName"> 
                 <h1 id="myname">Yash Dandnaik</h1>
+                
                 <ul id="SocialMediaIcons" class="Horizontal-List text-center Social-Icons">
                     <li><a href="https://www.linkedin.com/in/yashraj-dandnaik-4670991a6/"><i class="fa-brands fa-linkedin"></i></a></li>
                     <li><a href="https://github.com/yash-ad"><i class="fa-brands fa-github"></i></a></li>
@@ -35,7 +47,6 @@
                     <li><a href="#"><i class="fa-brands fa-medium"></i></a></li>
                     <li><a href="#"><i class="fa-brands fa-quora"></i></a></li>
                 </ul>
-            
             </div>
            
 
@@ -224,7 +235,7 @@
             <span>Contact</span></h1>
         <main class="row">
             <!--left-Section of contact form-->
-                <div class="colleft">
+                <div class="colleft" id="LeftContactsection">
                     <form class="messageform">
                     <div class="Input-fields">
                     <input type="text"  placeholder="Your Name" required>
@@ -239,7 +250,7 @@
                 
 
             <!--Right-Section of contact form-->
-                <div class="col right">
+                <div class="col right" id="RightContactsection">
 
                 <div class="Getintouch">
                     <h3>Get In touch</h3>
@@ -249,16 +260,16 @@
                 <div class="contactInfo">
                     <h3>My Address</h3>
                    <div class="addressContainers">
-                    <div class="address">
+                    <div class="Addressandcontact" id="address">
                         <span class="Png"><i class="fa-solid fa-location-dot"></i></span>
                         <span>Pune,India</span>
                     </div>
-                        <div class="contact-Number">
+                        <div class="Addressandcontact" id="contact-Number">
                             <span class="Png"><i class="fa-solid fa-mobile-screen-button"></i></span>
                             <span>7020634551</span>
                         </div>
 
-                        <div class="email">
+                        <div class="Addressandcontact" id="email">
                             <span class="Png"><i class="fa-solid fa-envelope"></i></span>
                             <span>yashrajdandnaik@gmail.com</span>
                         </div>
