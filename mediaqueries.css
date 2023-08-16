@@ -25,14 +25,18 @@
 
 
 #MyImage{
-    margin-top: -13%;
-    margin-left: 55vh;
+    margin-top: -10.3%;
+    margin-left: 70vh;
     margin-bottom: 15%;
+    height: 10rem;
+    width: 10rem;
 
 }
 #About-Paragraph {
+    
+    line-height: 35px;
     font-size: 70%;
-    padding-top: 65px;
+    padding-top: 60px;
     font-weight: 300;
     margin: -150px 70px 35px 70px;
 }
@@ -94,8 +98,10 @@
     
   
     margin: 0px 2px 2px 0px;
-  
-    font-size: 0.8rem;
+    letter-spacing: 0.3REM;
+    font-size: 0.9rem;
+    word-spacing: 5%;
+ 
 
 
 }
@@ -105,7 +111,7 @@
     
     color: white;
     font-weight: 300;
- margin-top: 26%;
+ margin-top: 20%;
     text-align: center;
 }
 #PORTFOLIO{
@@ -205,16 +211,6 @@ font-size: medium;
 }
 
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /* 572px Responsive media query */

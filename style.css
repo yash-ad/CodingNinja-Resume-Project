@@ -25,8 +25,8 @@ body{
 #body-header{
     height: 65vh;
     opacity: 0.8;
-    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
-    background-size:auto;
+    background-image: url(https://media.licdn.com/dms/image/D4D16AQGIbGG3B2CjdQ/profile-displaybackgroundimage-shrink_350_1400/0/1689950251606?e=1697673600&v=beta&t=U7JP6m5RLuQM4loReBazinyAtTWL-hmwZGQk9zS3pE8);
+    background-size:1050%;
     background-position: center;
     background-attachment: fixed;
     padding: 1.2rem;
@@ -55,11 +55,11 @@ body{
 .Horizontal-List li{
     
     display: inline-block;
-    margin: 0px 15px 15px 0px;
+    margin: 0px 17px 17px 0px;
     font-weight: 500;
     font-size: 1rem;
-    letter-spacing: 0.2REM;
-    word-spacing: 5%;
+    letter-spacing: 0.4REM;
+    word-spacing: 10%;
 
 }
 
@@ -91,7 +91,7 @@ body{
     letter-spacing: 0.2rem;
     color: white;
     font-weight: 500;
-    margin-bottom: 0.10rem;
+margin-top: 11rem;
     text-align: center;
 }
 #Social-Links-container{
@@ -134,10 +134,10 @@ body{
 
 #MyImage{
  
-    height: 12rem;
-    width: 12rem;
+    height: 15rem;
+    width: 15rem;
     margin: auto;
-    margin-top: -15vh;
+    margin-top: -16.5vh;
     border-radius:50%;
     margin-left:90vh ;
     border-color: lightgrey;
@@ -157,12 +157,12 @@ body{
 /*About Section*/
 #About-Paragraph{
 
-
+    line-height: 60px;
     font-size:80%;
     color: grey;
     font-weight: 400;
-    padding-top: 50px;
-    margin: 10px 70px 35px 70px;
+    padding-top: 40px;
+    margin: 0px 70px 35px 70px;
 }
 
 
@@ -416,8 +416,9 @@ margin-left: 3.5%;
 .Getintouch p {
 
     font-size: 15px;
-    letter-spacing: 1px;
-    line-height: 1.2;
+    letter-spacing: 2px;
+
+    line-height: 1.9;
     color: white;
     margin-bottom: 5px;
     overflow: auto;
