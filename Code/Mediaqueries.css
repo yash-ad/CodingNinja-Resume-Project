@@ -1,9 +1,7 @@
 
 /*Media Queries*/
   /*Desktop First Responsive */
- /*2 breakpoints - '572px' and '768px'.*/
- 
-
+ /*1 breakpoint '768px'.*/
  @media screen and (max-width:768px){
     body .Container{
 
@@ -21,20 +19,18 @@
       
     }
 
-  
-
-
-#MyImage{
-    margin-top: -10.3%;
-    margin-left: 70vh;
+#MyImage
+{
+    margin-top: -9.1%;
+    margin-left: 83vh;
     margin-bottom: 15%;
-    height: 10rem;
-    width: 10rem;
+    height: 8.9rem;
+    width: 8.9rem;
 
 }
 #About-Paragraph {
     
-    line-height: 35px;
+    line-height: 30px;
     font-size: 70%;
     padding-top: 60px;
     font-weight: 300;
@@ -94,26 +90,42 @@
     width: 80%;
    
   }
-  .Horizontal-List li{
-    
-  
-    margin: 0px 2px 2px 0px;
-    letter-spacing: 0.3REM;
-    font-size: 0.9rem;
-    word-spacing: 5%;
- 
 
-
-}
 .MyName{
     
-    font-size: 2.0rem;
-    
+    font-size: 1.4rem;
     color: white;
-    font-weight: 300;
- margin-top: 20%;
+    font-weight: 200;
+    margin-top: 18%;
     text-align: center;
 }
+
+.Horizontal-List li{
+    
+    display: inline-block;
+    margin: 17px 10px 10px 0px;
+    font-weight: 300;
+    font-size: 0.9rem;
+    letter-spacing: 0.3REM;
+    word-spacing: 9%;
+
+}
+
+.Horizontal-List li a{
+
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ,border-bottom 4s;
+}
+
+
+
+.text-center{
+
+    text-align: center;
+}
+
+
 #PORTFOLIO{
 
     margin-top: 0;
@@ -179,8 +191,15 @@
     
 }
 
+.Contact-heading span{
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+margin-right: 5rem;
+flex-direction: column;
+align-items: center;
 
-
+}
 .Contact-Container .row {
     display: flex;
     flex-direction: column;
@@ -213,10 +232,16 @@ font-size: medium;
 }
 
 
+
+
+
+
+
+
+
+
+ /*2 breakpoint '572px'.*/
 /* 572px Responsive media query */
-
-
-
 @media screen and (max-width:572px){
     body .Container{
 
@@ -261,23 +286,29 @@ flex-direction: column;
 
 
     }
-
+    .MyName{
+    
+        font-size: 2.5rem;
+        letter-spacing: 0.2rem;
+        color: white;
+        font-weight: 500;
+    margin-top: -8rem;
+        text-align: center;
+    }
    
-
-  
-
-
 #MyImage{
 
-    margin-left: 40vh;
-    margin-bottom: 15%;
+    margin-left: 50vh;
+    margin-top: -18vh;
 
 }
 #About-Paragraph {
-    font-size: 60%;
     padding-top: 90px;
     font-weight: 300;
     margin: -150px 70px 35px 70px;
+    line-height: 25px;
+    font-size:55%;
+
 }
 
 #Skills {
@@ -369,7 +400,6 @@ flex-direction: column;
     
     margin-bottom: 8%;
     font-size: 2.5rem;
-  
     margin-top: 34%;
     color: white;
     font-weight: 400;
@@ -401,7 +431,7 @@ flex-direction: column;
 
 .Contact-heading {
 
-    margin-left: -50px;
+    margin-left: 35px;
 }
 
 .row{

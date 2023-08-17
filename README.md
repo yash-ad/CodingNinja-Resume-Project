@@ -1,3 +1,3 @@
-<h1>Resume-Project</h1>
+<!-- Resume-Project
 CodingNinja Learning Frontend-Development.
-Resume project using complete HTML & CSS.
+Resume project using complete HTML & CSS & JavaScript as well. -->
