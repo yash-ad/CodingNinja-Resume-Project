@@ -99,25 +99,20 @@ margin-top: 11rem;
 
     margin-top: 16vh;
 }
-.Social-Icons li:hover {
-
-    box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3);
-    
-}
 
 .Social-Icons li a i:hover {
-    box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3);
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+    
    
    
 }
 
 .Social-Icons li a i {
-    width: 1.5rem;
-    padding: 10px;
+ 
     zoom: 120%;
-    
-  
-
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
 } 
 
 /*Main*/
@@ -241,8 +236,8 @@ width: 8rem;
 height: 1.9rem;
 background-color: lightgrey;
 border-radius:15rem;
-box-shadow: 20px;
-border: 1px solid grey;
+box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+overflow: hidden;
 
 }
 
@@ -269,9 +264,11 @@ background-color: #2857a4;
 {
 font-weight: 300;
 font-size:1rem;
-text-align: center;
+vertical-align: middle;
 color: white;
 padding-top: 5%;
+padding-left: 15.5%;
+
 }
 
 /*Percentage classes*/
@@ -281,8 +278,8 @@ padding-top: 5%;
 
 }
 
-.eighty-percent{
-    width: 80%;
+.seventy-Five-percent{
+    width: 75%;
     height: inherit;
 
 }
