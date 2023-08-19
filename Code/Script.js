@@ -139,7 +139,22 @@ intializeBars();
 }
 };
 
-
+// Add this JavaScript code to your Script.js file (or create one if not present)
+document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener("scroll", function () {
+      const scrollTop = window.scrollY;
+      const windowHeight = window.innerHeight;
+      const totalHeight = document.body.clientHeight;
+      const scrollPercentage = (scrollTop / (totalHeight - windowHeight)) * 100;
+  
+      // Update the scroll percentage in your top right corner element
+      const percentageElement = document.getElementById("scroll-percentage");
+      if (percentageElement) {
+        percentageElement.textContent = `${Math.round(scrollPercentage)}%`;
+      }
+    });
+  });
+  
 
 
 
